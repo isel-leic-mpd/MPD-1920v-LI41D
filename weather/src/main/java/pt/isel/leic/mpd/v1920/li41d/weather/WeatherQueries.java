@@ -35,7 +35,7 @@ public class WeatherQueries {
     }
 
 
-    Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMaxTemperaturesAbove(LocalDate fromDate, LocalDate toDate, String location, int thresholdTemp) throws IOException {
+    public Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMaxTemperaturesAbove(LocalDate fromDate, LocalDate toDate, String location, int thresholdTemp) throws IOException {
         Iterable<DailyWeatherInfo> weatherInfos = weatherApi.pastWeather(fromDate, toDate, location);
 
         List<DailyWeatherInfo> maxTemperatures = new ArrayList<>(DateUtils.numDays(fromDate, toDate));

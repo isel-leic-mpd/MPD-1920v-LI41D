@@ -1,23 +1,21 @@
 package pt.isel.leic.mpd.v1920.li41d.weather;
 
-import org.junit.Assert;
 import org.junit.Test;
 import pt.isel.leic.mpd.v1920.li41d.weather.api.MemoryWeatherApi;
 import pt.isel.leic.mpd.v1920.li41d.weather.utils.DateUtils;
 
-import java.time.Duration;
+import java.io.IOException;
 import java.time.LocalDate;
-import java.util.Iterator;
 
 import static org.junit.Assert.*;
 
 public class WeatherQueriesTest {
     @Test
-    public void maxTemperatureBetweenDatesInALocationTest() {
+    public void maxTemperatureBetweenDatesInALocationTest() throws IOException {
         // Arrange
         final LocalDate fromDate = LocalDate.of(2020, 3, 1);
         final LocalDate toDate = LocalDate.of(2020, 3, 5);
-        String location = "Lisboa";
+        String location = "Lisbon";
 
 
         WeatherQueries wq = new WeatherQueries(new MemoryWeatherApi());

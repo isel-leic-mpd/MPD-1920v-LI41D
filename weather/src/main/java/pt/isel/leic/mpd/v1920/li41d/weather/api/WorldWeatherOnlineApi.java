@@ -1,6 +1,7 @@
 package pt.isel.leic.mpd.v1920.li41d.weather.api;
 
-import pt.isel.leic.mpd.v1819.li41d.utils.HttpRequest;
+
+import pt.isel.leic.mpd.v1920.li41d.weather.utils.Request;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -15,14 +16,28 @@ public class WorldWeatherOnlineApi implements WeatherApi {
     private static final String PATH_SEARCH = "search.ashx?query=%s&format=%s&key=%s";
     private static final String WEATHER_KEY = "cd74a204137f42db98b112845202802";
     private static final String FORMAT = "csv";
+    private Request request;
 
+    public WorldWeatherOnlineApi(Request request) {
+        this.request = request;
+    }
+
+    public static DailyWeatherInfo toDailyWeatherInfo(String line) {
+        String[] words = line.split(",");
+        LocalDate date = LocalDate.parse(words[0]);
+        int max = Integer.parseInt(words[1]);
+        int min = Integer.parseInt(words[3]);
+        return new DailyWeatherInfo(date, max, min);
+    }
+
+
+    protected String getPastWeatherUri(LocalDate fromDate, LocalDate toDate, String location) {
+        return String.format(HOST + PATH_PAST_WEATHER, location, fromDate, toDate, FORMAT, WEATHER_KEY);
+    }
 
     public Iterable<DailyWeatherInfo> pastWeather(LocalDate fromDate, LocalDate toDate, String location) throws IOException {
-        HttpRequest httpReq = new HttpRequest();
-
-        final String url = String.format(HOST + PATH_PAST_WEATHER, location, fromDate, toDate, FORMAT, WEATHER_KEY);
-        Iterable<String> lines = httpReq.getLines(url);
-
+        String uri = getPastWeatherUri(fromDate, toDate, location);
+        Iterable<String> lines = request.getLines(uri);
         return parse(lines);
     }
 
@@ -30,11 +45,17 @@ public class WorldWeatherOnlineApi implements WeatherApi {
         List<DailyWeatherInfo> dailyWeatherInfos = new ArrayList<>();
 
         final Iterator<String> iterator = lines.iterator();
-        while (iterator.hasNext() && iterator.next().trim().startsWith("#"));
+
+
+        // Skip Comments
+        while (iterator.hasNext() && iterator.next().trim().startsWith("#")) ;
 
         while (iterator.hasNext()) {
             String line = iterator.next().trim();
-            // TODO
+            dailyWeatherInfos.add(toDailyWeatherInfo(line));
+            // Skip hourly info
+            iterator.next();
+
         }
 
 
