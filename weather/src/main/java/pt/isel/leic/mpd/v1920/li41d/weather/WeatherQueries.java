@@ -3,6 +3,7 @@ package pt.isel.leic.mpd.v1920.li41d.weather;
 import pt.isel.leic.mpd.v1920.li41d.weather.api.DailyWeatherInfo;
 import pt.isel.leic.mpd.v1920.li41d.weather.api.WeatherApi;
 import pt.isel.leic.mpd.v1920.li41d.weather.utils.DateUtils;
+import pt.isel.leic.mpd.v1920.li41d.weather.utils.MyPredicate;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -35,52 +36,53 @@ public class WeatherQueries {
     }
 
 
+
+
     public Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMaxTemperaturesAbove(LocalDate fromDate, LocalDate toDate, String location, int thresholdTemp) throws IOException {
-        Iterable<DailyWeatherInfo> weatherInfos = weatherApi.pastWeather(fromDate, toDate, location);
-
-        List<DailyWeatherInfo> maxTemperatures = new ArrayList<>(DateUtils.numDays(fromDate, toDate));
-
-        for (DailyWeatherInfo weatherInfo : weatherInfos) {
-            if(weatherInfo.getTempMaxC() >= thresholdTemp) {
-                maxTemperatures.add(weatherInfo);
+        return query(fromDate, toDate, location, new MyPredicate<DailyWeatherInfo>() {
+            @Override
+            public boolean test(DailyWeatherInfo dailyWeatherInfo) {
+                return dailyWeatherInfo.getTempMaxC() >= thresholdTemp;
             }
-        }
-        return maxTemperatures;
+        });
     }
 
     public Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMaxTemperaturesBetween(LocalDate fromDate, LocalDate toDate, String location, int min, int max) throws IOException {
-        Iterable<DailyWeatherInfo> weatherInfos = weatherApi.pastWeather(fromDate, toDate, location);
-
-        List<DailyWeatherInfo> maxTemperatures = new ArrayList<>(DateUtils.numDays(fromDate, toDate));
-
-        for (DailyWeatherInfo weatherInfo : weatherInfos) {
-            if(weatherInfo.getTempMaxC() >= min && weatherInfo.getTempMaxC() <= max) {
-                maxTemperatures.add(weatherInfo);
+        return query(fromDate, toDate, location, new MyPredicate<DailyWeatherInfo>() {
+            @Override
+            public boolean test(DailyWeatherInfo weatherInfo) {
+                return weatherInfo.getTempMaxC() >= min && weatherInfo.getTempMaxC() <= max;
             }
-        }
-        return maxTemperatures;
+        });
     }
 
     public Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMinTemperaturesAbove(LocalDate fromDate, LocalDate toDate, String location, int thresholdTemp) throws IOException {
-        Iterable<DailyWeatherInfo> weatherInfos = weatherApi.pastWeather(fromDate, toDate, location);
-
-        List<DailyWeatherInfo> maxTemperatures = new ArrayList<>(DateUtils.numDays(fromDate, toDate));
-
-        for (DailyWeatherInfo weatherInfo : weatherInfos) {
-            if(weatherInfo.getTempMinC() >= thresholdTemp) {
-                maxTemperatures.add(weatherInfo);
+        return query(fromDate, toDate, location, new MyPredicate<DailyWeatherInfo>() {
+            @Override
+            public boolean test(DailyWeatherInfo weatherInfo) {
+                return weatherInfo.getTempMinC() >= thresholdTemp;
             }
-        }
-        return maxTemperatures;
+        });
     }
 
     public Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMinTemperaturesBetween(LocalDate fromDate, LocalDate toDate, String location, int min, int max) throws IOException {
+        return query(fromDate, toDate, location, new MyPredicate<DailyWeatherInfo>() {
+            @Override
+            public boolean test(DailyWeatherInfo weatherInfo) {
+                return weatherInfo.getTempMinC() >= min && weatherInfo.getTempMinC() <= max;
+            }
+        });
+    }
+
+
+
+    private Iterable<DailyWeatherInfo> query(LocalDate fromDate, LocalDate toDate, String location, MyPredicate<DailyWeatherInfo> pred) throws IOException {
         Iterable<DailyWeatherInfo> weatherInfos = weatherApi.pastWeather(fromDate, toDate, location);
 
         List<DailyWeatherInfo> maxTemperatures = new ArrayList<>(DateUtils.numDays(fromDate, toDate));
 
         for (DailyWeatherInfo weatherInfo : weatherInfos) {
-            if(weatherInfo.getTempMinC() >= min && weatherInfo.getTempMinC() <= max) {
+            if(pred.test(weatherInfo)) {
                 maxTemperatures.add(weatherInfo);
             }
         }
