@@ -48,4 +48,42 @@ public class WeatherQueries {
         return maxTemperatures;
     }
 
+    public Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMaxTemperaturesBetween(LocalDate fromDate, LocalDate toDate, String location, int min, int max) throws IOException {
+        Iterable<DailyWeatherInfo> weatherInfos = weatherApi.pastWeather(fromDate, toDate, location);
+
+        List<DailyWeatherInfo> maxTemperatures = new ArrayList<>(DateUtils.numDays(fromDate, toDate));
+
+        for (DailyWeatherInfo weatherInfo : weatherInfos) {
+            if(weatherInfo.getTempMaxC() >= min && weatherInfo.getTempMaxC() <= max) {
+                maxTemperatures.add(weatherInfo);
+            }
+        }
+        return maxTemperatures;
+    }
+
+    public Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMinTemperaturesAbove(LocalDate fromDate, LocalDate toDate, String location, int thresholdTemp) throws IOException {
+        Iterable<DailyWeatherInfo> weatherInfos = weatherApi.pastWeather(fromDate, toDate, location);
+
+        List<DailyWeatherInfo> maxTemperatures = new ArrayList<>(DateUtils.numDays(fromDate, toDate));
+
+        for (DailyWeatherInfo weatherInfo : weatherInfos) {
+            if(weatherInfo.getTempMinC() >= thresholdTemp) {
+                maxTemperatures.add(weatherInfo);
+            }
+        }
+        return maxTemperatures;
+    }
+
+    public Iterable<DailyWeatherInfo> getDailyWeatherInfoWithMinTemperaturesBetween(LocalDate fromDate, LocalDate toDate, String location, int min, int max) throws IOException {
+        Iterable<DailyWeatherInfo> weatherInfos = weatherApi.pastWeather(fromDate, toDate, location);
+
+        List<DailyWeatherInfo> maxTemperatures = new ArrayList<>(DateUtils.numDays(fromDate, toDate));
+
+        for (DailyWeatherInfo weatherInfo : weatherInfos) {
+            if(weatherInfo.getTempMinC() >= min && weatherInfo.getTempMinC() <= max) {
+                maxTemperatures.add(weatherInfo);
+            }
+        }
+        return maxTemperatures;
+    }
 }
