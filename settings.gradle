@@ -1,0 +1,10 @@
+// To declare projects as part of a multi-project build use the 'include' method
+
+
+include 'weather'
+include 'weather-streams'
+include 'weather-async'
+include 'weather-reactive'
+include 'exams'
+
+rootProject.name = 'MPD-LI51D'
