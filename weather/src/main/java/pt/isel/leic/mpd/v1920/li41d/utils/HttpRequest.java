@@ -1,4 +1,4 @@
-package pt.isel.leic.mpd.v1920.li41d.weather.utils;
+package pt.isel.leic.mpd.v1920.li41d.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

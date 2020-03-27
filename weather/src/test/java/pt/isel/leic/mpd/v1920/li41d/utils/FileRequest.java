@@ -1,11 +1,7 @@
 package pt.isel.leic.mpd.v1920.li41d.utils;
 
-import pt.isel.leic.mpd.v1920.li41d.weather.utils.BaseRequest;
-
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
 
 public class FileRequest extends BaseRequest {
     @Override

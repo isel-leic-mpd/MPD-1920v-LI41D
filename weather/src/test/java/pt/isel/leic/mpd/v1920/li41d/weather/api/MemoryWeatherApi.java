@@ -1,6 +1,6 @@
 package pt.isel.leic.mpd.v1920.li41d.weather.api;
 
-import pt.isel.leic.mpd.v1920.li41d.weather.utils.DateUtils;
+import pt.isel.leic.mpd.v1920.li41d.utils.DateUtils;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

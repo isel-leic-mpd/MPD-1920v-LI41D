@@ -2,7 +2,7 @@ package pt.isel.leic.mpd.v1920.li41d.weather;
 
 import org.junit.Test;
 import pt.isel.leic.mpd.v1920.li41d.weather.api.MemoryWeatherApi;
-import pt.isel.leic.mpd.v1920.li41d.weather.utils.DateUtils;
+import pt.isel.leic.mpd.v1920.li41d.utils.DateUtils;
 
 import java.io.IOException;
 import java.time.LocalDate;
