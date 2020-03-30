@@ -16,40 +16,56 @@ import java.util.function.IntFunction;
 /**
  * Class with several utility queries for Iterable sequences with lazy implementations
  */
-public abstract class QueriesLazy {
-    public static <T> Iterable<T> filter(Iterable<T> src, MyPredicate<T> pred)  {
-        return () -> new FilterIterator(src.iterator(), pred);
+public class QueriesLazy<T> {
+
+    private Iterable<T> src;
+
+    private QueriesLazy(Iterable<T> src) {
+        this.src = src;
+    }
+
+    public static <T> QueriesLazy<T> from(Iterable<T> src) {
+        return new QueriesLazy<>(src);
     }
 
 
-    public static <T, R> Iterable<R> map(Iterable<T> src, MyFunction<T,R> mappper)  {
-        return () -> new MapIterator(src.iterator(), mappper);
-    }
-
-    public static <T, R> Iterable<R> skip(Iterable<T> src, int n)  {
-        return () -> new SkipIterator(src.iterator(), n);
-    }
-
-    public static <T, R> Iterable<R> limit(Iterable<T> src, int n)  {
-        return () -> new LimitIterator(src.iterator(), n);
+    public QueriesLazy<T> filter(MyPredicate<T> pred)  {
+        return new QueriesLazy<>(() -> new FilterIterator(src.iterator(), pred));
+        //return QueriesLazy.from(() -> new FilterIterator(src.iterator(), pred));
     }
 
 
-    public static <T> int count(Iterable<T> src) {
+    public <R> QueriesLazy<R> map(MyFunction<T,R> mappper)  {
+        return QueriesLazy.from(() -> new MapIterator(src.iterator(), mappper));
+    }
 
+    public QueriesLazy<T> skip(int n)  {
+        return QueriesLazy.from(() -> new SkipIterator(src.iterator(), n));
+    }
+
+    public QueriesLazy<T> limit(int n)  {
+        return QueriesLazy.from(() -> new LimitIterator(src.iterator(), n));
+    }
+
+
+    public int count() {
         int i = 0;
         for (T t : src) { ++i; }
 
         return i;
     }
 
-    public static <T> T[] toArray(Iterable<T> src, IntFunction<T[]> arrayFactory) {
-        final T[] destArray = arrayFactory.apply(count(src));
+    public T[] toArray(IntFunction<T[]> arrayFactory) {
+        final T[] destArray = arrayFactory.apply(count());
         int i = 0;
         for (T t : src) {
             destArray[i++] = t;
         }
 
         return destArray;
+    }
+
+    public Iterable<T> toIterable() {
+        return src;
     }
 }

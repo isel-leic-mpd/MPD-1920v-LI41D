@@ -6,8 +6,6 @@ import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.*;
-
 public class QueriesLazyTest {
     final List<String> strings = Arrays.asList("Sport", "Lisboa", "e", "Benfica");
     final List<String> stringsWithNulls = Arrays.asList("Sport", null, "Lisboa", null,  "e", null, "Benfica");
@@ -19,10 +17,13 @@ public class QueriesLazyTest {
         // Arrange
 
         // Act
-        final Iterable<String> filteredStrings = QueriesLazy.filter(strings, (s) -> s.length() > 5);
+        final Iterable<String> filteredStrings = QueriesLazy
+                .from(strings)
+                .filter((s) -> s.length() > 5)
+                .toIterable();
 
         // Assert
-        Assert.assertArrayEquals(new String[] {"Lisboa", "Benfica"}, QueriesLazy.toArray(filteredStrings, size -> new String[size]));
+        Assert.assertArrayEquals(new String[] {"Lisboa", "Benfica"}, QueriesLazy.from(filteredStrings).toArray(size -> new String[size]));
 
     }
 
@@ -31,10 +32,10 @@ public class QueriesLazyTest {
         // Arrange
 
         // Act
-        final Iterable<String> filteredStrings = QueriesLazy.filter(stringsWithNulls, (s) -> s== null || s.length() > 5);
+        final Iterable<String> filteredStrings = QueriesLazy.from(stringsWithNulls).filter((s) -> s== null || s.length() > 5).toIterable();
 
         // Assert
-        final String[] filteredStringsA = QueriesLazy.toArray(filteredStrings, size -> new String[size]);
+        final String[] filteredStringsA = QueriesLazy.from(filteredStrings).toArray(size -> new String[size]);
         Assert.assertArrayEquals(new String[] {null, "Lisboa", null, null, "Benfica"}, filteredStringsA);
 
     }
@@ -44,9 +45,26 @@ public class QueriesLazyTest {
         // Arrange
 
         // Act
-        final Iterable<Integer> sizes = QueriesLazy.map(strings, (s) -> s.length());
+        final Iterable<Integer> sizes = QueriesLazy.from(strings).map(s -> s.length()).toIterable();
 
         // Assert
-        Assert.assertArrayEquals(new Integer[] {5, 6, 1, 7},QueriesLazy.toArray(sizes, size -> new Integer[size]));
+        Assert.assertArrayEquals(new Integer[] {5, 6, 1, 7}, QueriesLazy.from(sizes).toArray(size -> new Integer[size]));
+    }
+
+
+    @Test
+    public void shouldFilterAndMapAStringSequence() {
+        // Arrange
+
+        // Act
+        final Iterable<Integer> sizes = QueriesLazy.from(stringsWithNulls)
+                .filter((s) -> s== null || s.length() > 5)
+                .map((s) -> s.length())
+                .toIterable();
+
+
+
+        // Assert
+        Assert.assertArrayEquals(new Integer[] {5, 6, 7},QueriesLazy.from(sizes).toArray(size -> new Integer[size]));
     }
 }
