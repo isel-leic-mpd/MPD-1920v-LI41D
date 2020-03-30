@@ -3,8 +3,9 @@ package pt.isel.leic.mpd.v1920.li41d.queries.iterators;
 import pt.isel.leic.mpd.v1920.li41d.utils.function.MyFunction;
 
 import java.util.Iterator;
+import java.util.function.Consumer;
 
-public class  MapIterator<T, R> implements Iterator<R> {
+public class  MapIterator<T, R> extends BaseIterator<R> {
     private final Iterator<T> srcIterator;
     private final MyFunction<T, R> mapper;
 
@@ -14,15 +15,10 @@ public class  MapIterator<T, R> implements Iterator<R> {
     }
 
     @Override
-    public boolean hasNext() {
-        return srcIterator.hasNext();
-    }
+    protected boolean tryAdvance(Consumer<R> consumer) {
+        if(!srcIterator.hasNext()) return false;
 
-    @Override
-    public R next() {
-//        final T nextT = srcIterator.next();
-//        final R nextR = mapper.apply(nextT);
-//        return nextR;
-        return mapper.apply(srcIterator.next());
+        consumer.accept(mapper.apply(srcIterator.next()));
+        return true;
     }
 }

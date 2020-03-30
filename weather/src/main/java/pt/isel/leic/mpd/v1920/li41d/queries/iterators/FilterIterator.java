@@ -4,37 +4,29 @@ import pt.isel.leic.mpd.v1920.li41d.utils.function.MyPredicate;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.Optional;
+import java.util.function.Consumer;
 
-public class FilterIterator<T> implements Iterator<T> {
+public class FilterIterator<T> extends BaseIterator<T> {
     private final Iterator<T> srcIterator;
     private final MyPredicate<T> pred;
-    private T next;
-    private boolean nextPresent = false;
+
 
     public FilterIterator(Iterator<T> srcIterator, MyPredicate<T> pred) {
         this.srcIterator = srcIterator;
         this.pred = pred;
     }
 
+
     @Override
-    public boolean hasNext() {
-        if(nextPresent) return true;
+    protected boolean tryAdvance(Consumer<T> consumer) {
         while (srcIterator.hasNext()) {
-            next = srcIterator.next();
-            if(pred.test(next)) {
-                return nextPresent = true;
+            T t = srcIterator.next();
+            if(pred.test(t)) {
+                consumer.accept(t);
+                return true;
             }
         }
         return false;
-    }
-
-    @Override
-    public T next() {
-        if(hasNext()) {
-            nextPresent = false;
-            return next;
-        }
-        throw new NoSuchElementException();
-
     }
 }
