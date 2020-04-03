@@ -2,9 +2,5 @@
 
 
 include 'weather'
-include 'weather-streams'
-include 'weather-async'
-include 'weather-reactive'
-include 'exams'
 
-rootProject.name = 'MPD-LI51D'
+rootProject.name = 'MPD-1920v-LI41D'
