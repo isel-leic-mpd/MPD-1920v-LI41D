@@ -1,0 +1,1965 @@
+{
+  "data": {
+    "request": [
+      {
+        "type": "City",
+        "query": "Lisbon, Portugal"
+      }
+    ],
+    "weather": [
+      {
+        "date": "2020-01-01",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:25 PM",
+            "moonrise": "12:59 PM",
+            "moonset": "No moonset",
+            "moon_phase": "Waxing Crescent",
+            "moon_illumination": "37"
+          }
+        ],
+        "maxtempC": "16",
+        "maxtempF": "61",
+        "mintempC": "8",
+        "mintempF": "47",
+        "avgtempC": "12",
+        "avgtempF": "53",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.7",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "16",
+            "tempF": "61",
+            "windspeedMiles": "4",
+            "windspeedKmph": "6",
+            "winddirDegree": "130",
+            "winddir16Point": "SE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "72",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1031",
+            "pressureInches": "31",
+            "cloudcover": "10",
+            "HeatIndexC": "11",
+            "HeatIndexF": "52",
+            "DewPointC": "6",
+            "DewPointF": "43",
+            "WindChillC": "11",
+            "WindChillF": "51",
+            "WindGustMiles": "6",
+            "WindGustKmph": "9",
+            "FeelsLikeC": "11",
+            "FeelsLikeF": "51",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-02",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:26 PM",
+            "moonrise": "01:25 PM",
+            "moonset": "12:33 AM",
+            "moon_phase": "First Quarter",
+            "moon_illumination": "44"
+          }
+        ],
+        "maxtempC": "13",
+        "maxtempF": "55",
+        "mintempC": "9",
+        "mintempF": "48",
+        "avgtempC": "11",
+        "avgtempF": "52",
+        "totalSnow_cm": "0.0",
+        "sunHour": "8.2",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "13",
+            "tempF": "55",
+            "windspeedMiles": "3",
+            "windspeedKmph": "4",
+            "winddirDegree": "160",
+            "winddir16Point": "SSE",
+            "weatherCode": "119",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "80",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1030",
+            "pressureInches": "31",
+            "cloudcover": "38",
+            "HeatIndexC": "11",
+            "HeatIndexF": "52",
+            "DewPointC": "8",
+            "DewPointF": "46",
+            "WindChillC": "11",
+            "WindChillF": "52",
+            "WindGustMiles": "4",
+            "WindGustKmph": "7",
+            "FeelsLikeC": "11",
+            "FeelsLikeF": "52",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-03",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:27 PM",
+            "moonrise": "01:50 PM",
+            "moonset": "01:30 AM",
+            "moon_phase": "First Quarter",
+            "moon_illumination": "51"
+          }
+        ],
+        "maxtempC": "15",
+        "maxtempF": "58",
+        "mintempC": "11",
+        "mintempF": "52",
+        "avgtempC": "13",
+        "avgtempF": "55",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.7",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "15",
+            "tempF": "58",
+            "windspeedMiles": "3",
+            "windspeedKmph": "4",
+            "winddirDegree": "197",
+            "winddir16Point": "SSW",
+            "weatherCode": "122",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Overcast"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "78",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1033",
+            "pressureInches": "31",
+            "cloudcover": "53",
+            "HeatIndexC": "13",
+            "HeatIndexF": "55",
+            "DewPointC": "9",
+            "DewPointF": "48",
+            "WindChillC": "13",
+            "WindChillF": "55",
+            "WindGustMiles": "4",
+            "WindGustKmph": "6",
+            "FeelsLikeC": "13",
+            "FeelsLikeF": "55",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-04",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:28 PM",
+            "moonrise": "02:15 PM",
+            "moonset": "02:27 AM",
+            "moon_phase": "First Quarter",
+            "moon_illumination": "59"
+          }
+        ],
+        "maxtempC": "16",
+        "maxtempF": "60",
+        "mintempC": "10",
+        "mintempF": "51",
+        "avgtempC": "13",
+        "avgtempF": "55",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.7",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "16",
+            "tempF": "60",
+            "windspeedMiles": "5",
+            "windspeedKmph": "8",
+            "winddirDegree": "37",
+            "winddir16Point": "NE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "78",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1032",
+            "pressureInches": "31",
+            "cloudcover": "4",
+            "HeatIndexC": "13",
+            "HeatIndexF": "55",
+            "DewPointC": "9",
+            "DewPointF": "48",
+            "WindChillC": "12",
+            "WindChillF": "54",
+            "WindGustMiles": "8",
+            "WindGustKmph": "13",
+            "FeelsLikeC": "12",
+            "FeelsLikeF": "54",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-05",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:28 PM",
+            "moonrise": "02:43 PM",
+            "moonset": "03:26 AM",
+            "moon_phase": "First Quarter",
+            "moon_illumination": "66"
+          }
+        ],
+        "maxtempC": "14",
+        "maxtempF": "58",
+        "mintempC": "7",
+        "mintempF": "45",
+        "avgtempC": "10",
+        "avgtempF": "51",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.7",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "14",
+            "tempF": "58",
+            "windspeedMiles": "6",
+            "windspeedKmph": "10",
+            "winddirDegree": "53",
+            "winddir16Point": "NE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "72",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1029",
+            "pressureInches": "31",
+            "cloudcover": "1",
+            "HeatIndexC": "10",
+            "HeatIndexF": "51",
+            "DewPointC": "5",
+            "DewPointF": "42",
+            "WindChillC": "9",
+            "WindChillF": "48",
+            "WindGustMiles": "9",
+            "WindGustKmph": "15",
+            "FeelsLikeC": "9",
+            "FeelsLikeF": "48",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-06",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:29 PM",
+            "moonrise": "03:14 PM",
+            "moonset": "04:25 AM",
+            "moon_phase": "Waxing Gibbous",
+            "moon_illumination": "73"
+          }
+        ],
+        "maxtempC": "16",
+        "maxtempF": "60",
+        "mintempC": "9",
+        "mintempF": "47",
+        "avgtempC": "12",
+        "avgtempF": "53",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.7",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "16",
+            "tempF": "60",
+            "windspeedMiles": "5",
+            "windspeedKmph": "7",
+            "winddirDegree": "33",
+            "winddir16Point": "NNE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "73",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1029",
+            "pressureInches": "31",
+            "cloudcover": "0",
+            "HeatIndexC": "11",
+            "HeatIndexF": "52",
+            "DewPointC": "6",
+            "DewPointF": "44",
+            "WindChillC": "10",
+            "WindChillF": "51",
+            "WindGustMiles": "7",
+            "WindGustKmph": "11",
+            "FeelsLikeC": "10",
+            "FeelsLikeF": "51",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-07",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:30 PM",
+            "moonrise": "03:50 PM",
+            "moonset": "05:28 AM",
+            "moon_phase": "Waxing Gibbous",
+            "moon_illumination": "80"
+          }
+        ],
+        "maxtempC": "15",
+        "maxtempF": "59",
+        "mintempC": "8",
+        "mintempF": "46",
+        "avgtempC": "11",
+        "avgtempF": "52",
+        "totalSnow_cm": "0.0",
+        "sunHour": "8.2",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "15",
+            "tempF": "59",
+            "windspeedMiles": "4",
+            "windspeedKmph": "7",
+            "winddirDegree": "27",
+            "winddir16Point": "NNE",
+            "weatherCode": "122",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Overcast"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "69",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1031",
+            "pressureInches": "31",
+            "cloudcover": "29",
+            "HeatIndexC": "11",
+            "HeatIndexF": "52",
+            "DewPointC": "5",
+            "DewPointF": "42",
+            "WindChillC": "10",
+            "WindChillF": "50",
+            "WindGustMiles": "7",
+            "WindGustKmph": "11",
+            "FeelsLikeC": "10",
+            "FeelsLikeF": "50",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-08",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:31 PM",
+            "moonrise": "04:31 PM",
+            "moonset": "06:31 AM",
+            "moon_phase": "Waxing Gibbous",
+            "moon_illumination": "88"
+          }
+        ],
+        "maxtempC": "16",
+        "maxtempF": "60",
+        "mintempC": "8",
+        "mintempF": "47",
+        "avgtempC": "12",
+        "avgtempF": "54",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.8",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "16",
+            "tempF": "60",
+            "windspeedMiles": "5",
+            "windspeedKmph": "7",
+            "winddirDegree": "180",
+            "winddir16Point": "S",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "74",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1030",
+            "pressureInches": "31",
+            "cloudcover": "6",
+            "HeatIndexC": "12",
+            "HeatIndexF": "53",
+            "DewPointC": "7",
+            "DewPointF": "45",
+            "WindChillC": "11",
+            "WindChillF": "52",
+            "WindGustMiles": "7",
+            "WindGustKmph": "12",
+            "FeelsLikeC": "11",
+            "FeelsLikeF": "52",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-09",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:32 PM",
+            "moonrise": "05:22 PM",
+            "moonset": "07:35 AM",
+            "moon_phase": "Waxing Gibbous",
+            "moon_illumination": "95"
+          }
+        ],
+        "maxtempC": "17",
+        "maxtempF": "62",
+        "mintempC": "12",
+        "mintempF": "53",
+        "avgtempC": "14",
+        "avgtempF": "58",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.8",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "17",
+            "tempF": "62",
+            "windspeedMiles": "6",
+            "windspeedKmph": "10",
+            "winddirDegree": "255",
+            "winddir16Point": "WSW",
+            "weatherCode": "143",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0006_mist.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Mist"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "87",
+            "visibility": "8",
+            "visibilityMiles": "4",
+            "pressure": "1029",
+            "pressureInches": "31",
+            "cloudcover": "42",
+            "HeatIndexC": "13",
+            "HeatIndexF": "56",
+            "DewPointC": "11",
+            "DewPointF": "52",
+            "WindChillC": "13",
+            "WindChillF": "55",
+            "WindGustMiles": "9",
+            "WindGustKmph": "14",
+            "FeelsLikeC": "13",
+            "FeelsLikeF": "55",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-10",
+        "astronomy": [
+          {
+            "sunrise": "08:55 AM",
+            "sunset": "06:33 PM",
+            "moonrise": "06:20 PM",
+            "moonset": "08:36 AM",
+            "moon_phase": "Full Moon",
+            "moon_illumination": "100"
+          }
+        ],
+        "maxtempC": "14",
+        "maxtempF": "56",
+        "mintempC": "10",
+        "mintempF": "49",
+        "avgtempC": "12",
+        "avgtempF": "53",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.8",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "14",
+            "tempF": "56",
+            "windspeedMiles": "9",
+            "windspeedKmph": "15",
+            "winddirDegree": "97",
+            "winddir16Point": "E",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "69",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1030",
+            "pressureInches": "31",
+            "cloudcover": "12",
+            "HeatIndexC": "11",
+            "HeatIndexF": "52",
+            "DewPointC": "6",
+            "DewPointF": "42",
+            "WindChillC": "9",
+            "WindChillF": "49",
+            "WindGustMiles": "14",
+            "WindGustKmph": "23",
+            "FeelsLikeC": "9",
+            "FeelsLikeF": "49",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-11",
+        "astronomy": [
+          {
+            "sunrise": "08:54 AM",
+            "sunset": "06:34 PM",
+            "moonrise": "07:27 PM",
+            "moonset": "09:33 AM",
+            "moon_phase": "Full Moon",
+            "moon_illumination": "100"
+          }
+        ],
+        "maxtempC": "14",
+        "maxtempF": "58",
+        "mintempC": "7",
+        "mintempF": "45",
+        "avgtempC": "11",
+        "avgtempF": "51",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.8",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "14",
+            "tempF": "58",
+            "windspeedMiles": "6",
+            "windspeedKmph": "10",
+            "winddirDegree": "42",
+            "winddir16Point": "NE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "64",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1031",
+            "pressureInches": "31",
+            "cloudcover": "2",
+            "HeatIndexC": "10",
+            "HeatIndexF": "50",
+            "DewPointC": "3",
+            "DewPointF": "38",
+            "WindChillC": "9",
+            "WindChillF": "48",
+            "WindGustMiles": "10",
+            "WindGustKmph": "16",
+            "FeelsLikeC": "9",
+            "FeelsLikeF": "48",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-12",
+        "astronomy": [
+          {
+            "sunrise": "08:54 AM",
+            "sunset": "06:35 PM",
+            "moonrise": "08:38 PM",
+            "moonset": "10:21 AM",
+            "moon_phase": "Waxing Gibbous",
+            "moon_illumination": "83"
+          }
+        ],
+        "maxtempC": "15",
+        "maxtempF": "59",
+        "mintempC": "7",
+        "mintempF": "45",
+        "avgtempC": "11",
+        "avgtempF": "52",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.8",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "15",
+            "tempF": "59",
+            "windspeedMiles": "4",
+            "windspeedKmph": "7",
+            "winddirDegree": "37",
+            "winddir16Point": "NE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "66",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1031",
+            "pressureInches": "31",
+            "cloudcover": "0",
+            "HeatIndexC": "11",
+            "HeatIndexF": "51",
+            "DewPointC": "4",
+            "DewPointF": "40",
+            "WindChillC": "10",
+            "WindChillF": "50",
+            "WindGustMiles": "6",
+            "WindGustKmph": "10",
+            "FeelsLikeC": "10",
+            "FeelsLikeF": "50",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-13",
+        "astronomy": [
+          {
+            "sunrise": "08:54 AM",
+            "sunset": "06:36 PM",
+            "moonrise": "09:50 PM",
+            "moonset": "11:05 AM",
+            "moon_phase": "Waning Gibbous",
+            "moon_illumination": "76"
+          }
+        ],
+        "maxtempC": "13",
+        "maxtempF": "56",
+        "mintempC": "7",
+        "mintempF": "45",
+        "avgtempC": "10",
+        "avgtempF": "50",
+        "totalSnow_cm": "0.0",
+        "sunHour": "6.6",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "13",
+            "tempF": "56",
+            "windspeedMiles": "5",
+            "windspeedKmph": "7",
+            "winddirDegree": "152",
+            "winddir16Point": "SSE",
+            "weatherCode": "122",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Overcast"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "72",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1026",
+            "pressureInches": "31",
+            "cloudcover": "58",
+            "HeatIndexC": "10",
+            "HeatIndexF": "50",
+            "DewPointC": "5",
+            "DewPointF": "41",
+            "WindChillC": "9",
+            "WindChillF": "49",
+            "WindGustMiles": "7",
+            "WindGustKmph": "12",
+            "FeelsLikeC": "9",
+            "FeelsLikeF": "49",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-14",
+        "astronomy": [
+          {
+            "sunrise": "08:54 AM",
+            "sunset": "06:37 PM",
+            "moonrise": "11:02 PM",
+            "moonset": "11:42 AM",
+            "moon_phase": "Waning Gibbous",
+            "moon_illumination": "69"
+          }
+        ],
+        "maxtempC": "15",
+        "maxtempF": "60",
+        "mintempC": "10",
+        "mintempF": "51",
+        "avgtempC": "14",
+        "avgtempF": "57",
+        "totalSnow_cm": "0.0",
+        "sunHour": "4.9",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "15",
+            "tempF": "60",
+            "windspeedMiles": "14",
+            "windspeedKmph": "22",
+            "winddirDegree": "193",
+            "winddir16Point": "SSW",
+            "weatherCode": "353",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Light rain shower"
+              }
+            ],
+            "precipMM": "3.8",
+            "precipInches": "0.1",
+            "humidity": "75",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1020",
+            "pressureInches": "31",
+            "cloudcover": "83",
+            "HeatIndexC": "14",
+            "HeatIndexF": "57",
+            "DewPointC": "9",
+            "DewPointF": "49",
+            "WindChillC": "12",
+            "WindChillF": "54",
+            "WindGustMiles": "21",
+            "WindGustKmph": "33",
+            "FeelsLikeC": "12",
+            "FeelsLikeF": "54",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-15",
+        "astronomy": [
+          {
+            "sunrise": "08:53 AM",
+            "sunset": "06:38 PM",
+            "moonrise": "No moonrise",
+            "moonset": "12:15 PM",
+            "moon_phase": "Waning Gibbous",
+            "moon_illumination": "61"
+          }
+        ],
+        "maxtempC": "17",
+        "maxtempF": "63",
+        "mintempC": "15",
+        "mintempF": "58",
+        "avgtempC": "16",
+        "avgtempF": "61",
+        "totalSnow_cm": "0.0",
+        "sunHour": "6.6",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "17",
+            "tempF": "63",
+            "windspeedMiles": "15",
+            "windspeedKmph": "23",
+            "winddirDegree": "204",
+            "winddir16Point": "SSW",
+            "weatherCode": "353",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Light rain shower"
+              }
+            ],
+            "precipMM": "8.3",
+            "precipInches": "0.3",
+            "humidity": "82",
+            "visibility": "10",
+            "visibilityMiles": "5",
+            "pressure": "1020",
+            "pressureInches": "31",
+            "cloudcover": "74",
+            "HeatIndexC": "15",
+            "HeatIndexF": "60",
+            "DewPointC": "12",
+            "DewPointF": "54",
+            "WindChillC": "14",
+            "WindChillF": "58",
+            "WindGustMiles": "23",
+            "WindGustKmph": "37",
+            "FeelsLikeC": "14",
+            "FeelsLikeF": "58",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-16",
+        "astronomy": [
+          {
+            "sunrise": "08:53 AM",
+            "sunset": "06:39 PM",
+            "moonrise": "12:13 AM",
+            "moonset": "12:47 PM",
+            "moon_phase": "Waning Gibbous",
+            "moon_illumination": "54"
+          }
+        ],
+        "maxtempC": "16",
+        "maxtempF": "62",
+        "mintempC": "14",
+        "mintempF": "58",
+        "avgtempC": "15",
+        "avgtempF": "59",
+        "totalSnow_cm": "0.0",
+        "sunHour": "8.3",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "16",
+            "tempF": "62",
+            "windspeedMiles": "16",
+            "windspeedKmph": "26",
+            "winddirDegree": "197",
+            "winddir16Point": "SSW",
+            "weatherCode": "302",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Moderate rain"
+              }
+            ],
+            "precipMM": "5.1",
+            "precipInches": "0.2",
+            "humidity": "82",
+            "visibility": "10",
+            "visibilityMiles": "5",
+            "pressure": "1023",
+            "pressureInches": "31",
+            "cloudcover": "69",
+            "HeatIndexC": "15",
+            "HeatIndexF": "59",
+            "DewPointC": "12",
+            "DewPointF": "53",
+            "WindChillC": "14",
+            "WindChillF": "57",
+            "WindGustMiles": "24",
+            "WindGustKmph": "39",
+            "FeelsLikeC": "14",
+            "FeelsLikeF": "57",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-17",
+        "astronomy": [
+          {
+            "sunrise": "08:53 AM",
+            "sunset": "06:40 PM",
+            "moonrise": "01:22 AM",
+            "moonset": "01:18 PM",
+            "moon_phase": "Last Quarter",
+            "moon_illumination": "47"
+          }
+        ],
+        "maxtempC": "16",
+        "maxtempF": "61",
+        "mintempC": "13",
+        "mintempF": "55",
+        "avgtempC": "14",
+        "avgtempF": "57",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.9",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "16",
+            "tempF": "61",
+            "windspeedMiles": "4",
+            "windspeedKmph": "7",
+            "winddirDegree": "120",
+            "winddir16Point": "ESE",
+            "weatherCode": "119",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Cloudy"
+              }
+            ],
+            "precipMM": "1.0",
+            "precipInches": "0.0",
+            "humidity": "82",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1030",
+            "pressureInches": "31",
+            "cloudcover": "45",
+            "HeatIndexC": "14",
+            "HeatIndexF": "57",
+            "DewPointC": "11",
+            "DewPointF": "51",
+            "WindChillC": "14",
+            "WindChillF": "57",
+            "WindGustMiles": "7",
+            "WindGustKmph": "11",
+            "FeelsLikeC": "14",
+            "FeelsLikeF": "57",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-18",
+        "astronomy": [
+          {
+            "sunrise": "08:52 AM",
+            "sunset": "06:42 PM",
+            "moonrise": "02:31 AM",
+            "moonset": "01:50 PM",
+            "moon_phase": "Last Quarter",
+            "moon_illumination": "40"
+          }
+        ],
+        "maxtempC": "17",
+        "maxtempF": "62",
+        "mintempC": "14",
+        "mintempF": "56",
+        "avgtempC": "16",
+        "avgtempF": "61",
+        "totalSnow_cm": "0.0",
+        "sunHour": "8.3",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "17",
+            "tempF": "62",
+            "windspeedMiles": "14",
+            "windspeedKmph": "23",
+            "winddirDegree": "289",
+            "winddir16Point": "WNW",
+            "weatherCode": "299",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Moderate rain at times"
+              }
+            ],
+            "precipMM": "17.8",
+            "precipInches": "0.7",
+            "humidity": "86",
+            "visibility": "9",
+            "visibilityMiles": "5",
+            "pressure": "1027",
+            "pressureInches": "31",
+            "cloudcover": "65",
+            "HeatIndexC": "15",
+            "HeatIndexF": "59",
+            "DewPointC": "13",
+            "DewPointF": "55",
+            "WindChillC": "15",
+            "WindChillF": "58",
+            "WindGustMiles": "21",
+            "WindGustKmph": "34",
+            "FeelsLikeC": "15",
+            "FeelsLikeF": "58",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-19",
+        "astronomy": [
+          {
+            "sunrise": "08:52 AM",
+            "sunset": "06:43 PM",
+            "moonrise": "03:39 AM",
+            "moonset": "02:24 PM",
+            "moon_phase": "Last Quarter",
+            "moon_illumination": "32"
+          }
+        ],
+        "maxtempC": "15",
+        "maxtempF": "59",
+        "mintempC": "10",
+        "mintempF": "51",
+        "avgtempC": "13",
+        "avgtempF": "56",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.9",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "15",
+            "tempF": "59",
+            "windspeedMiles": "16",
+            "windspeedKmph": "26",
+            "winddirDegree": "109",
+            "winddir16Point": "ESE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.3",
+            "precipInches": "0.0",
+            "humidity": "63",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1026",
+            "pressureInches": "31",
+            "cloudcover": "27",
+            "HeatIndexC": "13",
+            "HeatIndexF": "55",
+            "DewPointC": "6",
+            "DewPointF": "42",
+            "WindChillC": "10",
+            "WindChillF": "50",
+            "WindGustMiles": "24",
+            "WindGustKmph": "39",
+            "FeelsLikeC": "10",
+            "FeelsLikeF": "50",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-20",
+        "astronomy": [
+          {
+            "sunrise": "08:51 AM",
+            "sunset": "06:44 PM",
+            "moonrise": "04:46 AM",
+            "moonset": "03:02 PM",
+            "moon_phase": "Waning Crescent",
+            "moon_illumination": "25"
+          }
+        ],
+        "maxtempC": "11",
+        "maxtempF": "52",
+        "mintempC": "6",
+        "mintempF": "43",
+        "avgtempC": "8",
+        "avgtempF": "47",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.9",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "11",
+            "tempF": "52",
+            "windspeedMiles": "20",
+            "windspeedKmph": "32",
+            "winddirDegree": "43",
+            "winddir16Point": "NE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "48",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1023",
+            "pressureInches": "31",
+            "cloudcover": "16",
+            "HeatIndexC": "8",
+            "HeatIndexF": "47",
+            "DewPointC": "-2",
+            "DewPointF": "28",
+            "WindChillC": "4",
+            "WindChillF": "39",
+            "WindGustMiles": "29",
+            "WindGustKmph": "46",
+            "FeelsLikeC": "4",
+            "FeelsLikeF": "39",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-21",
+        "astronomy": [
+          {
+            "sunrise": "08:51 AM",
+            "sunset": "06:45 PM",
+            "moonrise": "05:52 AM",
+            "moonset": "03:46 PM",
+            "moon_phase": "Waning Crescent",
+            "moon_illumination": "18"
+          }
+        ],
+        "maxtempC": "13",
+        "maxtempF": "55",
+        "mintempC": "6",
+        "mintempF": "43",
+        "avgtempC": "9",
+        "avgtempF": "49",
+        "totalSnow_cm": "0.0",
+        "sunHour": "9.9",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "13",
+            "tempF": "55",
+            "windspeedMiles": "13",
+            "windspeedKmph": "20",
+            "winddirDegree": "32",
+            "winddir16Point": "NNE",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.0",
+            "precipInches": "0.0",
+            "humidity": "59",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1018",
+            "pressureInches": "31",
+            "cloudcover": "18",
+            "HeatIndexC": "9",
+            "HeatIndexF": "48",
+            "DewPointC": "1",
+            "DewPointF": "34",
+            "WindChillC": "6",
+            "WindChillF": "43",
+            "WindGustMiles": "19",
+            "WindGustKmph": "30",
+            "FeelsLikeC": "6",
+            "FeelsLikeF": "43",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-22",
+        "astronomy": [
+          {
+            "sunrise": "08:50 AM",
+            "sunset": "06:46 PM",
+            "moonrise": "06:53 AM",
+            "moonset": "04:35 PM",
+            "moon_phase": "Waning Crescent",
+            "moon_illumination": "11"
+          }
+        ],
+        "maxtempC": "12",
+        "maxtempF": "54",
+        "mintempC": "8",
+        "mintempF": "47",
+        "avgtempC": "10",
+        "avgtempF": "51",
+        "totalSnow_cm": "0.0",
+        "sunHour": "5.0",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "12",
+            "tempF": "54",
+            "windspeedMiles": "11",
+            "windspeedKmph": "18",
+            "winddirDegree": "57",
+            "winddir16Point": "ENE",
+            "weatherCode": "176",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Patchy rain possible"
+              }
+            ],
+            "precipMM": "0.2",
+            "precipInches": "0.0",
+            "humidity": "74",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1015",
+            "pressureInches": "30",
+            "cloudcover": "69",
+            "HeatIndexC": "10",
+            "HeatIndexF": "50",
+            "DewPointC": "5",
+            "DewPointF": "42",
+            "WindChillC": "7",
+            "WindChillF": "45",
+            "WindGustMiles": "17",
+            "WindGustKmph": "27",
+            "FeelsLikeC": "7",
+            "FeelsLikeF": "45",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-23",
+        "astronomy": [
+          {
+            "sunrise": "08:50 AM",
+            "sunset": "06:47 PM",
+            "moonrise": "07:50 AM",
+            "moonset": "05:29 PM",
+            "moon_phase": "Waning Crescent",
+            "moon_illumination": "3"
+          }
+        ],
+        "maxtempC": "13",
+        "maxtempF": "56",
+        "mintempC": "9",
+        "mintempF": "47",
+        "avgtempC": "11",
+        "avgtempF": "51",
+        "totalSnow_cm": "0.0",
+        "sunHour": "8.3",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "13",
+            "tempF": "56",
+            "windspeedMiles": "7",
+            "windspeedKmph": "11",
+            "winddirDegree": "133",
+            "winddir16Point": "SE",
+            "weatherCode": "176",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Patchy rain possible"
+              }
+            ],
+            "precipMM": "0.7",
+            "precipInches": "0.0",
+            "humidity": "83",
+            "visibility": "9",
+            "visibilityMiles": "5",
+            "pressure": "1013",
+            "pressureInches": "30",
+            "cloudcover": "74",
+            "HeatIndexC": "10",
+            "HeatIndexF": "50",
+            "DewPointC": "7",
+            "DewPointF": "45",
+            "WindChillC": "9",
+            "WindChillF": "48",
+            "WindGustMiles": "10",
+            "WindGustKmph": "16",
+            "FeelsLikeC": "9",
+            "FeelsLikeF": "48",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-24",
+        "astronomy": [
+          {
+            "sunrise": "08:49 AM",
+            "sunset": "06:48 PM",
+            "moonrise": "08:39 AM",
+            "moonset": "06:26 PM",
+            "moon_phase": "New Moon",
+            "moon_illumination": "0"
+          }
+        ],
+        "maxtempC": "14",
+        "maxtempF": "58",
+        "mintempC": "9",
+        "mintempF": "48",
+        "avgtempC": "11",
+        "avgtempF": "53",
+        "totalSnow_cm": "0.0",
+        "sunHour": "8.3",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "14",
+            "tempF": "58",
+            "windspeedMiles": "8",
+            "windspeedKmph": "13",
+            "winddirDegree": "107",
+            "winddir16Point": "ESE",
+            "weatherCode": "353",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Light rain shower"
+              }
+            ],
+            "precipMM": "0.4",
+            "precipInches": "0.0",
+            "humidity": "82",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1016",
+            "pressureInches": "30",
+            "cloudcover": "67",
+            "HeatIndexC": "11",
+            "HeatIndexF": "52",
+            "DewPointC": "8",
+            "DewPointF": "46",
+            "WindChillC": "9",
+            "WindChillF": "49",
+            "WindGustMiles": "12",
+            "WindGustKmph": "19",
+            "FeelsLikeC": "9",
+            "FeelsLikeF": "49",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-25",
+        "astronomy": [
+          {
+            "sunrise": "08:48 AM",
+            "sunset": "06:49 PM",
+            "moonrise": "09:23 AM",
+            "moonset": "07:27 PM",
+            "moon_phase": "New Moon",
+            "moon_illumination": "0"
+          }
+        ],
+        "maxtempC": "14",
+        "maxtempF": "58",
+        "mintempC": "10",
+        "mintempF": "49",
+        "avgtempC": "12",
+        "avgtempF": "53",
+        "totalSnow_cm": "0.0",
+        "sunHour": "10.0",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "14",
+            "tempF": "58",
+            "windspeedMiles": "7",
+            "windspeedKmph": "11",
+            "winddirDegree": "174",
+            "winddir16Point": "S",
+            "weatherCode": "116",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Partly cloudy"
+              }
+            ],
+            "precipMM": "0.2",
+            "precipInches": "0.0",
+            "humidity": "80",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1016",
+            "pressureInches": "30",
+            "cloudcover": "43",
+            "HeatIndexC": "11",
+            "HeatIndexF": "52",
+            "DewPointC": "8",
+            "DewPointF": "46",
+            "WindChillC": "10",
+            "WindChillF": "50",
+            "WindGustMiles": "10",
+            "WindGustKmph": "17",
+            "FeelsLikeC": "10",
+            "FeelsLikeF": "50",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-26",
+        "astronomy": [
+          {
+            "sunrise": "08:48 AM",
+            "sunset": "06:51 PM",
+            "moonrise": "10:00 AM",
+            "moonset": "08:26 PM",
+            "moon_phase": "Waxing Crescent",
+            "moon_illumination": "4"
+          }
+        ],
+        "maxtempC": "15",
+        "maxtempF": "58",
+        "mintempC": "10",
+        "mintempF": "50",
+        "avgtempC": "12",
+        "avgtempF": "54",
+        "totalSnow_cm": "0.0",
+        "sunHour": "8.3",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "15",
+            "tempF": "58",
+            "windspeedMiles": "5",
+            "windspeedKmph": "8",
+            "winddirDegree": "205",
+            "winddir16Point": "SSW",
+            "weatherCode": "176",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Patchy rain possible"
+              }
+            ],
+            "precipMM": "0.2",
+            "precipInches": "0.0",
+            "humidity": "78",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1023",
+            "pressureInches": "31",
+            "cloudcover": "40",
+            "HeatIndexC": "12",
+            "HeatIndexF": "54",
+            "DewPointC": "8",
+            "DewPointF": "47",
+            "WindChillC": "11",
+            "WindChillF": "52",
+            "WindGustMiles": "8",
+            "WindGustKmph": "13",
+            "FeelsLikeC": "11",
+            "FeelsLikeF": "52",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-27",
+        "astronomy": [
+          {
+            "sunrise": "08:47 AM",
+            "sunset": "06:52 PM",
+            "moonrise": "10:31 AM",
+            "moonset": "09:25 PM",
+            "moon_phase": "Waxing Crescent",
+            "moon_illumination": "11"
+          }
+        ],
+        "maxtempC": "15",
+        "maxtempF": "59",
+        "mintempC": "12",
+        "mintempF": "53",
+        "avgtempC": "14",
+        "avgtempF": "57",
+        "totalSnow_cm": "0.0",
+        "sunHour": "5.0",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "15",
+            "tempF": "59",
+            "windspeedMiles": "11",
+            "windspeedKmph": "18",
+            "winddirDegree": "219",
+            "winddir16Point": "SW",
+            "weatherCode": "353",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Light rain shower"
+              }
+            ],
+            "precipMM": "1.7",
+            "precipInches": "0.1",
+            "humidity": "87",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1024",
+            "pressureInches": "31",
+            "cloudcover": "81",
+            "HeatIndexC": "13",
+            "HeatIndexF": "56",
+            "DewPointC": "11",
+            "DewPointF": "52",
+            "WindChillC": "12",
+            "WindChillF": "53",
+            "WindGustMiles": "18",
+            "WindGustKmph": "29",
+            "FeelsLikeC": "12",
+            "FeelsLikeF": "53",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-28",
+        "astronomy": [
+          {
+            "sunrise": "08:46 AM",
+            "sunset": "06:53 PM",
+            "moonrise": "11:00 AM",
+            "moonset": "10:23 PM",
+            "moon_phase": "Waxing Crescent",
+            "moon_illumination": "18"
+          }
+        ],
+        "maxtempC": "16",
+        "maxtempF": "61",
+        "mintempC": "14",
+        "mintempF": "56",
+        "avgtempC": "15",
+        "avgtempF": "59",
+        "totalSnow_cm": "0.0",
+        "sunHour": "5.0",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "16",
+            "tempF": "61",
+            "windspeedMiles": "8",
+            "windspeedKmph": "13",
+            "winddirDegree": "236",
+            "winddir16Point": "WSW",
+            "weatherCode": "353",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Light rain shower"
+              }
+            ],
+            "precipMM": "3.2",
+            "precipInches": "0.1",
+            "humidity": "90",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1024",
+            "pressureInches": "31",
+            "cloudcover": "77",
+            "HeatIndexC": "15",
+            "HeatIndexF": "58",
+            "DewPointC": "13",
+            "DewPointF": "55",
+            "WindChillC": "14",
+            "WindChillF": "57",
+            "WindGustMiles": "12",
+            "WindGustKmph": "20",
+            "FeelsLikeC": "14",
+            "FeelsLikeF": "57",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-29",
+        "astronomy": [
+          {
+            "sunrise": "08:45 AM",
+            "sunset": "06:54 PM",
+            "moonrise": "11:27 AM",
+            "moonset": "11:20 PM",
+            "moon_phase": "Waxing Crescent",
+            "moon_illumination": "26"
+          }
+        ],
+        "maxtempC": "15",
+        "maxtempF": "60",
+        "mintempC": "13",
+        "mintempF": "55",
+        "avgtempC": "14",
+        "avgtempF": "58",
+        "totalSnow_cm": "0.0",
+        "sunHour": "5.0",
+        "uvIndex": "3",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "15",
+            "tempF": "60",
+            "windspeedMiles": "9",
+            "windspeedKmph": "14",
+            "winddirDegree": "195",
+            "winddir16Point": "SSW",
+            "weatherCode": "176",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Patchy rain possible"
+              }
+            ],
+            "precipMM": "0.5",
+            "precipInches": "0.0",
+            "humidity": "88",
+            "visibility": "8",
+            "visibilityMiles": "4",
+            "pressure": "1024",
+            "pressureInches": "31",
+            "cloudcover": "78",
+            "HeatIndexC": "14",
+            "HeatIndexF": "57",
+            "DewPointC": "12",
+            "DewPointF": "53",
+            "WindChillC": "13",
+            "WindChillF": "56",
+            "WindGustMiles": "13",
+            "WindGustKmph": "21",
+            "FeelsLikeC": "13",
+            "FeelsLikeF": "56",
+            "uvIndex": "3"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-30",
+        "astronomy": [
+          {
+            "sunrise": "08:44 AM",
+            "sunset": "06:55 PM",
+            "moonrise": "11:52 AM",
+            "moonset": "No moonset",
+            "moon_phase": "Waxing Crescent",
+            "moon_illumination": "33"
+          }
+        ],
+        "maxtempC": "16",
+        "maxtempF": "61",
+        "mintempC": "13",
+        "mintempF": "55",
+        "avgtempC": "15",
+        "avgtempF": "59",
+        "totalSnow_cm": "0.0",
+        "sunHour": "5.1",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "16",
+            "tempF": "61",
+            "windspeedMiles": "9",
+            "windspeedKmph": "15",
+            "winddirDegree": "204",
+            "winddir16Point": "SSW",
+            "weatherCode": "176",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Patchy rain possible"
+              }
+            ],
+            "precipMM": "0.6",
+            "precipInches": "0.0",
+            "humidity": "86",
+            "visibility": "10",
+            "visibilityMiles": "6",
+            "pressure": "1024",
+            "pressureInches": "31",
+            "cloudcover": "91",
+            "HeatIndexC": "15",
+            "HeatIndexF": "58",
+            "DewPointC": "12",
+            "DewPointF": "54",
+            "WindChillC": "14",
+            "WindChillF": "57",
+            "WindGustMiles": "14",
+            "WindGustKmph": "22",
+            "FeelsLikeC": "14",
+            "FeelsLikeF": "57",
+            "uvIndex": "4"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-31",
+        "astronomy": [
+          {
+            "sunrise": "08:44 AM",
+            "sunset": "06:56 PM",
+            "moonrise": "12:16 PM",
+            "moonset": "12:16 AM",
+            "moon_phase": "Waxing Crescent",
+            "moon_illumination": "37"
+          }
+        ],
+        "maxtempC": "18",
+        "maxtempF": "64",
+        "mintempC": "15",
+        "mintempF": "59",
+        "avgtempC": "16",
+        "avgtempF": "61",
+        "totalSnow_cm": "0.0",
+        "sunHour": "5.1",
+        "uvIndex": "4",
+        "hourly": [
+          {
+            "time": "24",
+            "tempC": "18",
+            "tempF": "64",
+            "windspeedMiles": "9",
+            "windspeedKmph": "14",
+            "winddirDegree": "211",
+            "winddir16Point": "SSW",
+            "weatherCode": "353",
+            "weatherIconUrl": [
+              {
+                "value": "http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+              }
+            ],
+            "weatherDesc": [
+              {
+                "value": "Light rain shower"
+              }
+            ],
+            "precipMM": "2.1",
+            "precipInches": "0.1",
+            "humidity": "91",
+            "visibility": "9",
+            "visibilityMiles": "5",
+            "pressure": "1024",
+            "pressureInches": "31",
+            "cloudcover": "91",
+            "HeatIndexC": "16",
+            "HeatIndexF": "60",
+            "DewPointC": "14",
+            "DewPointF": "58",
+            "WindChillC": "16",
+            "WindChillF": "60",
+            "WindGustMiles": "13",
+            "WindGustKmph": "21",
+            "FeelsLikeC": "16",
+            "FeelsLikeF": "60",
+            "uvIndex": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

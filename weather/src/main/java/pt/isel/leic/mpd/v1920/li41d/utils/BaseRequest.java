@@ -1,9 +1,6 @@
 package pt.isel.leic.mpd.v1920.li41d.utils;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,6 +18,12 @@ abstract public class BaseRequest implements Request {
         }
 
         return lines;
+    }
+
+
+    @Override
+    public Reader getReader(String path) throws IOException {
+        return new InputStreamReader(openStream(path));
     }
 
     protected abstract InputStream openStream(String url) throws IOException;

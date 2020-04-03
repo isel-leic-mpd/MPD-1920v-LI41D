@@ -4,6 +4,15 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class FileRequest extends BaseRequest {
+
+    private String fileExtension = "";
+
+    public FileRequest() { }
+
+    public FileRequest(String fileExtension) {
+        this.fileExtension = fileExtension;
+    }
+
     @Override
     protected InputStream openStream(String url) throws IOException {
         String[] parts = url.split("/");
@@ -16,7 +25,7 @@ public class FileRequest extends BaseRequest {
 
         int idx = path.indexOf("tp-");
 
-        path = path.substring(0, idx);
+        path = path.substring(0, idx) + fileExtension;
 
         return ClassLoader.getSystemResource(path).openStream();
     }
