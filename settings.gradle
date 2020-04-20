@@ -2,5 +2,6 @@
 
 
 include 'weather'
+include 'weather-stream'
 
 rootProject.name = 'MPD-1920v-LI41D'
