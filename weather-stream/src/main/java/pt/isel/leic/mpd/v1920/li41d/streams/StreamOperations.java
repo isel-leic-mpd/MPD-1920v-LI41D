@@ -1,11 +1,12 @@
 package pt.isel.leic.mpd.v1920.li41d.streams;
 
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Spliterator;
+import java.util.*;
 import java.util.function.Consumer;
+import java.util.function.Supplier;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
+
+import static java.util.stream.Collectors.toList;
 
 public class StreamOperations {
     static <T> Stream<T> collapse(Stream<T> src) {
@@ -13,12 +14,13 @@ public class StreamOperations {
     }
 
 
-    static class CollapseSpliterator<T> implements Spliterator<T> {
+    static class CollapseSpliterator<T> extends Spliterators.AbstractSpliterator<T> {
         private Spliterator<T> src;
         boolean firstElement = true;
         private T last = null;
 
-        public CollapseSpliterator(Spliterator<T> src) {
+        public CollapseSpliterator(Spliterator<T> src)  {
+            super(src.estimateSize(), src.characteristics());
             this.src = src;
         }
 
@@ -41,20 +43,15 @@ public class StreamOperations {
 
             return !(lastAux == last);
         }
+    }
 
-        @Override
-        public Spliterator<T> trySplit() {
-            return null;
-        }
 
-        @Override
-        public long estimateSize() {
-            return src.estimateSize();
-        }
+    public static <T> Supplier<Stream<T>> nocache(Stream<T> src) {
+        return () -> src;
+    }
 
-        @Override
-        public int characteristics() {
-            return src.characteristics() & ~Spliterator.CONCURRENT;
-        }
+    public static <T> Supplier<Stream<T>> badcache(Stream<T> src) {
+        List<T> cache = src.collect(toList());
+        return () -> cache.stream();  // cache::stream
     }
 }
