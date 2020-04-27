@@ -10,6 +10,7 @@ import java.util.Spliterator;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertEquals;
 
 public class StreamsTest {
     final List<DailyWeatherInfo> weatherInfos = Arrays.asList(
@@ -52,7 +53,5 @@ public class StreamsTest {
 
         // or
         integerStream.forEach(System.out::println);
-
-
     }
 }
