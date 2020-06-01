@@ -2,16 +2,14 @@ package pt.isel.leic.mpd.v1920.li41d.streams;
 
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.BinaryOperator;
 import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
 
-public class StreamReductionTests {
+public class StreamReductionWithReduceTests {
     final Stream<String> stream = Stream.of("Corona", "virus", "sucks");
 
     @Test
