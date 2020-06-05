@@ -1,0 +1,8 @@
+#The Search API
+#Data returned is laid out in the following order:-
+#AreaName    Country     Region(If available)    Latitude    Longitude   Population(if available)    Weather Forecast URL
+#
+Faro	Portugal	Faro	37.017	-7.933	41355	https://www.worldweatheronline.com/v2/weather.aspx?q=37.0167,-7.9333
+Faros	Greece	Central Greece	38.400	23.617	1195	https://www.worldweatheronline.com/v2/weather.aspx?q=38.4,23.6167
+Faros	Greece	South Aegean	36.945	24.753	105	https://www.worldweatheronline.com/v2/weather.aspx?q=36.9447,24.753
+Faro	Italy	Veneto	45.233	12.283	47	https://www.worldweatheronline.com/v2/weather.aspx?q=45.2333,12.2833

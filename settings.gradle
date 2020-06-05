@@ -3,6 +3,9 @@
 
 include 'weather'
 include 'weather-stream'
+include 'weather-reactive'
+include 'idioms'
+include 'weather-reactive-web'
 
 
 rootProject.name = 'MPD-1920v-LI41D'

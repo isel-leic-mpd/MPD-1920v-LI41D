@@ -1,0 +1,106 @@
+{
+  "search_api": {
+    "result": [
+      {
+        "areaName": [
+          {
+            "value": "Faro"
+          }
+        ],
+        "country": [
+          {
+            "value": "Portugal"
+          }
+        ],
+        "region": [
+          {
+            "value": "Faro"
+          }
+        ],
+        "latitude": "37.017",
+        "longitude": "-7.933",
+        "population": "41355",
+        "weatherUrl": [
+          {
+            "value": "https://www.worldweatheronline.com/v2/weather.aspx?q=37.0167,-7.9333"
+          }
+        ]
+      },
+      {
+        "areaName": [
+          {
+            "value": "Faros"
+          }
+        ],
+        "country": [
+          {
+            "value": "Greece"
+          }
+        ],
+        "region": [
+          {
+            "value": "Central Greece"
+          }
+        ],
+        "latitude": "38.400",
+        "longitude": "23.617",
+        "population": "1195",
+        "weatherUrl": [
+          {
+            "value": "https://www.worldweatheronline.com/v2/weather.aspx?q=38.4,23.6167"
+          }
+        ]
+      },
+      {
+        "areaName": [
+          {
+            "value": "Faros"
+          }
+        ],
+        "country": [
+          {
+            "value": "Greece"
+          }
+        ],
+        "region": [
+          {
+            "value": "South Aegean"
+          }
+        ],
+        "latitude": "36.945",
+        "longitude": "24.753",
+        "population": "105",
+        "weatherUrl": [
+          {
+            "value": "https://www.worldweatheronline.com/v2/weather.aspx?q=36.9447,24.753"
+          }
+        ]
+      },
+      {
+        "areaName": [
+          {
+            "value": "Faro"
+          }
+        ],
+        "country": [
+          {
+            "value": "Italy"
+          }
+        ],
+        "region": [
+          {
+            "value": "Veneto"
+          }
+        ],
+        "latitude": "45.233",
+        "longitude": "12.283",
+        "population": "47",
+        "weatherUrl": [
+          {
+            "value": "https://www.worldweatheronline.com/v2/weather.aspx?q=45.2333,12.2833"
+          }
+        ]
+      }
+    ]
+  }
+}
